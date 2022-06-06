@@ -11,6 +11,6 @@ public class SongDTO {
 	private String title;
 	private String artist;
 	private String genre;
-	private int length;
+	private double length;
 
 }

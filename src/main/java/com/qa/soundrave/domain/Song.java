@@ -19,7 +19,7 @@ public class Song {
 	private String title;
 	private String artist;
 	private String genre;
-	private int length;
+	private double length;
 
 //	@ManyToOne(targetEntity = Artist.class)
 //	private Artist artist;

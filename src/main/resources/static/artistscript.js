@@ -21,7 +21,7 @@ function createArtist(name) {
                 "name": name,
             }),
         })
-            .then((response) => console.log(response))
+            .then((response) => { if (response.status == 201) { location.reload(); } console.log(response) })
             .catch((error) => console.log(error));
     }
 }
@@ -102,19 +102,15 @@ let searchAll = () => {
 function addItem(data) {
     for (let i in data) {
         let child = document.createElement(`li`);
-        child.appendChild(document.createTextNode(`${JSON.stringify(data[i])}`))
+        child.appendChild(document.createTextNode(
+            `${data[i].id} - ${data[i].name}: ${JSON.stringify(data[i].songs)}`))
+        // for (let song in data[i]) {
+        //     child.appendChild(document.createTextNode(`${data[i].songs[song].title}`))
+        // }
         artistList.appendChild(child)
     }
 }
 
-//   // Delete List
-//   function deleteList() {
-//       for (let x in artistList) {
-//           delete(x);
-//       }
-//   }
-
-showArtistButton.onclick = () => {
-    // deleteList();   
+showArtistButton.addEventListener("click", () => {
     searchAll();
-}
+});

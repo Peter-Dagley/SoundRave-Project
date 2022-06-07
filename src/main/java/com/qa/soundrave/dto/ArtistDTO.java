@@ -13,9 +13,4 @@ public class ArtistDTO {
 	private String name;
 	private List<SongDTO> songs;
 	
-	@Override
-	public String toString() {
-		return "ArtistDTO [id=" + id + ", name=" + name + ", songs=" + songs + "]";
-	}
-
 }

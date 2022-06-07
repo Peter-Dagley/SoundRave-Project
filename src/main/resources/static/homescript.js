@@ -4,7 +4,7 @@ const idInput = document.getElementById("idInput")
 const idButton = document.getElementById("idButton")
 const carList = document.getElementById("songList")
 
-// Making a Car Class
+// Making a Song Class
 
 class Song {
   constructor(id, title, artist, genre, length) {

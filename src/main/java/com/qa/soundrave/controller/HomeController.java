@@ -12,4 +12,9 @@ public class HomeController {
 		return "home.html";
 	}
 	
+	@GetMapping("/artistpage")
+	public String artistpage() {
+		return "artistpage.html";
+	}
+	
 }

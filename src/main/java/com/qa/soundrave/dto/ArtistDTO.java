@@ -1,15 +1,16 @@
 package com.qa.soundrave.dto;
 
+import java.util.List;
+
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
-public class SongDTO {
-	
+public class ArtistDTO {
+
 	private Long id;
-	private String title;
-	private String genre;
-	private double length;
-	
+	private String name;
+	private List<SongDTO> songs;
+
 }

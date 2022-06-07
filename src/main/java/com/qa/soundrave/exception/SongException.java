@@ -11,5 +11,4 @@ public class SongException extends Exception {
 	 */
 	private static final long serialVersionUID = -3126862525531283443L;
 
-
 }

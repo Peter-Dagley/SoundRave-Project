@@ -12,11 +12,10 @@ import com.qa.soundrave.dto.SongDTO;
 import com.qa.soundrave.exception.SongException;
 import com.qa.soundrave.repo.SongRepo;
 
-
-
 @Service
 public class SongService {
 
+	@Autowired
 	private SongRepo repo;
 	
 	private ModelMapper mapper;

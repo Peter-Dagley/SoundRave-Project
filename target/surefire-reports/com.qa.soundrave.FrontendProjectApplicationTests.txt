@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.qa.soundrave.FrontendProjectApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in com.qa.soundrave.FrontendProjectApplicationTests

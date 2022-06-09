@@ -1,0 +1,15 @@
+com\qa\soundrave\exception\SongException.class
+com\qa\soundrave\services\SongService.class
+com\qa\soundrave\controller\SongController.class
+com\qa\soundrave\services\ArtistService.class
+com\qa\soundrave\domain\Song.class
+com\qa\soundrave\dto\ArtistDTO.class
+com\qa\soundrave\dto\SongDTO.class
+com\qa\soundrave\exception\ArtistException.class
+com\qa\soundrave\repo\SongRepo.class
+com\qa\soundrave\config\AppConfig.class
+com\qa\soundrave\repo\ArtistRepo.class
+com\qa\soundrave\domain\Artist.class
+com\qa\soundrave\controller\ArtistController.class
+com\qa\soundrave\controller\HomeController.class
+com\qa\soundrave\FrontendProjectApplication.class

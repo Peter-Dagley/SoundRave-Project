@@ -62,17 +62,5 @@ public class SongController {
 	public ResponseEntity<Boolean> deleteSong(@PathVariable Long id) throws SongException {
 		return new ResponseEntity<>(this.service.deleteSong(id), HttpStatus.NO_CONTENT);	
 	}
-	
-//	// Find by Make
-//	@GetMapping("/make/{make}")
-//	public ResponseEntity<List<CarDTO>> findCarByMake(@PathVariable String make) {
-//		return new ResponseEntity<>(this.service.findCarByMake(make), HttpStatus.OK);	
-//	}
-//	
-//	// Find by Horsepower
-//	@GetMapping("/horsepower/{horsepower}")
-//	public ResponseEntity<List<CarDTO>> findCarByHorsepower(@PathVariable int horsepower) {
-//		return new ResponseEntity<>(this.service.findCarByHorsepower(horsepower), HttpStatus.OK);	
-//	}
-	
+		
 }

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SoundRave - Artists</title>
+    <link rel="stylesheet" href="artiststyles.css">
+    <style></style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <center>
+        <br>
+        <h1>SoundRave - Artists and Songs</h1>
+
+        <h3 id="2"><a href="http://localhost:8080/home">Home</a></h3><br><br>
+    </center>
+
+    <div id="rootdiv">
+
+        <center><div id="rootdiv" class="d-flex p-2">
+            <div class="p-2">
+                    <h3>Create an Artist</h3>
+                    <input class="input1" type="text" id="artistInput" placeholder="Artist name...">
+                    <button id="createArtistButton">Create Artist...</button><br><br>
+
+                    <input class="input1" type="number" id="deleteArtistInput" placeholder="Enter ID...">
+                    <button id="deleteArtistButton">Delete Artist...</button><br><br>
+
+                    <h3>Update an Artist</h3>
+                    <input class="input1" type="number" id="updateIDArtistInput" placeholder="Enter Artist ID..."><br>
+                    <input class="input1" type="text" id="updateNameArtistInput"
+                        placeholder="Enter Updated Name..."><br>
+                    <button id="updateArtistButton">Update Artist...</button><br><br>
+            </div>
+
+            <div class="p-2">
+                <h3>Add a song to the Artist</h3>
+                <input class="input1" type="number" id="idInput" placeholder="Artist ID..."><br>
+                <input class="input1" type="text" id="artistInput2" placeholder="Artist name..."><br><br>
+
+                <input class="input1" type="text" id="titleInput" placeholder="Title..."><br>
+                <input class="input1" type="text" id="genreInput" placeholder="Genre..."><br>
+                <input class="input1" type="number" id="lengthInput" placeholder="Length..."><br>
+                <button id="addSongButton">Add Song...</button><br><br>
+
+                <input class="input1" type="number" id="deleteSongInput" placeholder="Enter ID...">
+                    <button id="deleteSongButton">Delete Song...</button><br><br>
+            </div>
+
+            <div class="p-2">
+                <h3>Update a Song</h3>
+                <input class="input1" type="number" id="updateSongArtistIDInput" placeholder="Enter Artist ID..."><br>
+                <input class="input1" type="text" id="updateSongArtistNameInput"
+                    placeholder="Enter Artist Name..."><br><br>
+
+                <input class="input1" type="number" id="updateIDSongInput" placeholder="Enter Song ID..."><br><br>
+                <input class="input1" type="text" id="updateTitleInput" placeholder="Title..."><br>
+                <input class="input1" type="text" id="updateGenreInput" placeholder="Genre..."><br>
+                <input class="input1" type="number" id="updateLengthInput" placeholder="Length..."><br>
+                <button id="updateSongButton">Update Song...</button>
+            </div>
+
+        </div></center>
+
+        <div>
+            <br><button id="showArtistButton">Show Artists...</button><br><br>
+            <ul id="artistList"></ul>
+        </div>
+
+
+        <script type="text/javascript" src="artistscript.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

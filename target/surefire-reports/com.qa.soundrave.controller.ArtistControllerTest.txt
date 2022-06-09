@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.qa.soundrave.controller.ArtistControllerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.638 s - in com.qa.soundrave.controller.ArtistControllerTest

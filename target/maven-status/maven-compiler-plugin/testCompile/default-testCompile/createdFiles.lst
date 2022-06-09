@@ -1,0 +1,6 @@
+com\qa\soundrave\controller\ArtistControllerTest.class
+com\qa\soundrave\controller\HomeControllerTest.class
+com\qa\soundrave\controller\SongControllerTest.class
+com\qa\soundrave\FrontendProjectApplicationTests.class
+com\qa\soundrave\services\ArtistServiceTest.class
+com\qa\soundrave\services\SongServiceTest.class

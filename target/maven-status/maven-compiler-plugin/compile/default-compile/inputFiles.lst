@@ -1,0 +1,15 @@
+C:\Users\Peter Dagley\eclipse-workspace\SoundRaveProject\src\main\java\com\qa\soundrave\domain\Artist.java
+C:\Users\Peter Dagley\eclipse-workspace\SoundRaveProject\src\main\java\com\qa\soundrave\repo\ArtistRepo.java
+C:\Users\Peter Dagley\eclipse-workspace\SoundRaveProject\src\main\java\com\qa\soundrave\config\AppConfig.java
+C:\Users\Peter Dagley\eclipse-workspace\SoundRaveProject\src\main\java\com\qa\soundrave\repo\SongRepo.java
+C:\Users\Peter Dagley\eclipse-workspace\SoundRaveProject\src\main\java\com\qa\soundrave\services\SongService.java
+C:\Users\Peter Dagley\eclipse-workspace\SoundRaveProject\src\main\java\com\qa\soundrave\services\ArtistService.java
+C:\Users\Peter Dagley\eclipse-workspace\SoundRaveProject\src\main\java\com\qa\soundrave\dto\SongDTO.java
+C:\Users\Peter Dagley\eclipse-workspace\SoundRaveProject\src\main\java\com\qa\soundrave\controller\HomeController.java
+C:\Users\Peter Dagley\eclipse-workspace\SoundRaveProject\src\main\java\com\qa\soundrave\dto\ArtistDTO.java
+C:\Users\Peter Dagley\eclipse-workspace\SoundRaveProject\src\main\java\com\qa\soundrave\domain\Song.java
+C:\Users\Peter Dagley\eclipse-workspace\SoundRaveProject\src\main\java\com\qa\soundrave\controller\SongController.java
+C:\Users\Peter Dagley\eclipse-workspace\SoundRaveProject\src\main\java\com\qa\soundrave\exception\SongException.java
+C:\Users\Peter Dagley\eclipse-workspace\SoundRaveProject\src\main\java\com\qa\soundrave\exception\ArtistException.java
+C:\Users\Peter Dagley\eclipse-workspace\SoundRaveProject\src\main\java\com\qa\soundrave\FrontendProjectApplication.java
+C:\Users\Peter Dagley\eclipse-workspace\SoundRaveProject\src\main\java\com\qa\soundrave\controller\ArtistController.java

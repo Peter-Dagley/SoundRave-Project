@@ -22,7 +22,7 @@ public class SongServiceTest {
 
 	@Autowired
 	private SongService service;
-	
+		
 	@MockBean
 	private SongRepo repo;
 		
@@ -44,6 +44,18 @@ public class SongServiceTest {
 		assertEquals(songs, this.service.readAll());
 		Mockito.verify(this.repo, Mockito.times(1)).findAll();
 	}
+	
+	@Test
+	public void testReadById() throws SongException {
+		final Long id = 1L;
+		final Song song = new Song();
+		final SongDTO songDTO = new SongDTO();
 		
+		Mockito.when(this.repo.findById(id)).thenReturn(Optional.of(song));
+		assertEquals(songDTO, this.service.readById(id));
+		Mockito.verify(this.repo, Mockito.times(1)).findById(Mockito.anyLong());
+	}
+
+	
 }
 

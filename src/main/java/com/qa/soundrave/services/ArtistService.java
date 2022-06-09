@@ -17,6 +17,7 @@ import com.qa.soundrave.repo.ArtistRepo;
 @Service
 public class ArtistService {
 
+	@Autowired
 	private ArtistRepo repo;
 	
 	private ModelMapper mapper;

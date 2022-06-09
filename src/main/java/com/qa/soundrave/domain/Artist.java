@@ -1,6 +1,5 @@
 package com.qa.soundrave.domain;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.Entity;
@@ -20,6 +19,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Artist {
 
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
@@ -27,5 +27,10 @@ public class Artist {
 	
 	@OneToMany(mappedBy = "artist")
 	@OnDelete(action = OnDeleteAction.CASCADE)
-	private List<Song> songs = new ArrayList<>();
+	private List<Song> songs;
+	
+	public Artist(Long id2, String name2, List<Song> songs2) {
+		
+	}
+
 }

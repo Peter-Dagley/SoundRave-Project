@@ -65,17 +65,5 @@ public class SongService {
 		this.repo.deleteById(id);
 		return !this.repo.existsById(id);
 	}
-	
-//	// Find by Make
-//	public List<CarDTO> findCarByMake(String make) {
-//		return this.repo.findCarByMake(make).stream().map(this::mapToDTO).collect(Collectors.toList());
-//	}
-//	
-//	// Find by Horsepower
-//	public List<CarDTO> findCarByHorsepower(int horsepower) {
-//		return this.repo.findCarByHorsepower(horsepower).stream().map(this::mapToDTO).collect(Collectors.toList());
-//	}
-	
-	
-	
+		
 }

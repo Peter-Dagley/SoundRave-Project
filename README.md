@@ -8,6 +8,8 @@ SoundRave is an simple music database (H2) with the ability to store artists and
 
 To run the application, run the executable jar file located in the /target folder using a command prompt and to command: java -jar "name of jar file"
 
+The fat jar can be found in releases of this repository.
+
 This will run the interface with a HTML frontend to be accessed in the browser via http://localhost:8080/home
 
 To close the program, simply close the command prompt.
